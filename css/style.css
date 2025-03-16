@@ -44,26 +44,26 @@ body {
   z-index: 10;
 }
 
-.card2 > div {
+.card2 > a > div {
   transition: all 0.3s ease;
   border: 1px solid rgba(255, 255, 255, 0.1);
 }
-.card2 > div.border {
+.card2 > a > div.border {
   border-color: rgba(255, 255, 255, 0.1);
 }
-.card2 > div:hover {
+.card2 > a > div:hover {
   transform: translateY(-8px);
   border-color: rgba(255, 255, 255, 0.4);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
 }
-.card2 > div.dark\:bg-dark-card:hover {
+.card2 > a > div.dark\:bg-dark-card:hover {
   border-color: rgba(255, 255, 255, 0.4);
 }
-.card2 > div .flex.flex-wrap {
+.card2 > a > div .flex.flex-wrap {
   transition: none;
   transform: none;
 }
-.card2 > div .flex.flex-wrap span {
+.card2 > a > div .flex.flex-wrap span {
   transition: none;
   transform: none;
 }

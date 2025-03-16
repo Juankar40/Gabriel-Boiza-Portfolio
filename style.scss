@@ -44,7 +44,7 @@ body {
     z-index: 10;
   }
   
-  .card2 {
+  .card2 > a {
   > div {
     transition: all 0.3s ease;
     border: 1px solid rgba(255, 255, 255, 0.1);
