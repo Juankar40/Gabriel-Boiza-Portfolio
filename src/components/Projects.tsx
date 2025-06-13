@@ -6,27 +6,27 @@ const Projects: React.FC = () => {
     {
       title: "Museo Apel·les Fenosa",
       description: "Aplicación web para administrar las obras museo Apel·les Fenosa bajo requisitos",
-      image: "assets/apeles.png",
+      image: "/assets/apeles.png",
       technologies: [
-        { name: "HTML5", icon: "assets/html5.svg" },
-        { name: "Sass", icon: "assets/sass.svg" },
-        { name: "JavaScript", icon: "assets/javascript.svg" },
-        { name: "PHP", icon: "assets/php_dark.svg" },
-        { name: "Cloudflare", icon: "assets/cloudflare.svg" }
+        { name: "HTML5", icon: "/assets/html5.svg" },
+        { name: "Sass", icon: "/assets/sass.svg" },
+        { name: "JavaScript", icon: "/assets/javascript.svg" },
+        { name: "PHP", icon: "/assets/php_dark.svg" },
+        { name: "Cloudflare", icon: "/assets/cloudflare.svg" }
       ],
       githubUrl: "https://github.com/Josep-Oriol/ProyectoABP-Museo"
     },
     {
       title: "PePerifericos",
       description: "Recreación completa de una tienda online de perifericos",
-      image: "assets/tienda.jpeg",
+      image: "/assets/tienda.jpeg",
       technologies: [
-        { name: "HTML5", icon: "assets/html5.svg" },
-        { name: "Tailwind CSS", icon: "assets/tailwindcss.svg" },
-        { name: "JavaScript", icon: "assets/javascript.svg" },
-        { name: "PHP", icon: "assets/php_dark.svg" },
-        { name: "Laravel", icon: "assets/laravel.svg" },
-        { name: "Cloudflare", icon: "assets/cloudflare.svg" }
+        { name: "HTML5", icon: "/assets/html5.svg" },
+        { name: "Tailwind CSS", icon: "/assets/tailwindcss.svg" },
+        { name: "JavaScript", icon: "/assets/javascript.svg" },
+        { name: "PHP", icon: "/assets/php_dark.svg" },
+        { name: "Laravel", icon: "/assets/laravel.svg" },
+        { name: "Cloudflare", icon: "/assets/cloudflare.svg" }
       ],
       githubUrl: "https://github.com/Gabriel-Boiza/proyecto-tienda"
     }

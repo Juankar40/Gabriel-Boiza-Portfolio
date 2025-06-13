@@ -7,7 +7,7 @@ const Header: React.FC = () => {
     <header className="flex flex-col md:flex-row items-center md:items-start gap-6 mb-12">
       {/* Profile Image */}
       <div className="w-40 h-40 rounded-full overflow-hidden bg-[#e6edf3] dark:bg-gray-800">
-        <img src="assets/perfil.png" alt="Gabriel Boiza" className="w-full h-full object-cover" />
+        <img src="/assets/perfil.png" alt="Gabriel Boiza" className="w-full h-full object-cover" />
       </div>
 
       {/* Profile Info */}

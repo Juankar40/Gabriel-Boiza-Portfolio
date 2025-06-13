@@ -7,10 +7,10 @@ const OtherProjects: React.FC = () => {
       title: "Rick&Morty API",
       description: "Una pagina simple para ver los personajes de Rick y Morty.",
       technologies: [
-        { name: "HTML5", icon: "assets/html5.svg" },
-        { name: "Sass", icon: "assets/sass.svg" },
-        { name: "Angular", icon: "assets/angular.svg" },
-        { name: "TypeScript", icon: "assets/typescript.svg" }
+        { name: "HTML5", icon: "/assets/html5.svg" },
+        { name: "Sass", icon: "/assets/sass.svg" },
+        { name: "Angular", icon: "/assets/angular.svg" },
+        { name: "TypeScript", icon: "/assets/typescript.svg" }
       ],
       url: "https://rick-and-morty-mu-smoky.vercel.app/"
     },
@@ -18,9 +18,9 @@ const OtherProjects: React.FC = () => {
       title: "Recreación tienda online",
       description: "Recreación de tienda online de videojuegos manejando datos locales",
       technologies: [
-        { name: "HTML5", icon: "assets/html5.svg" },
-        { name: "CSS", icon: "assets/css_old.svg" },
-        { name: "JavaScript", icon: "assets/javascript.svg" }
+        { name: "HTML5", icon: "/assets/html5.svg" },
+        { name: "CSS", icon: "/assets/css_old.svg" },
+        { name: "JavaScript", icon: "/assets/javascript.svg" }
       ],
       url: "https://game-hub-gray-mu.vercel.app/pages/home.html"
     }
